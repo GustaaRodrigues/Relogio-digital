@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Orbitron', sans-serif;
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+/* Painel do Relógio */
+.relogio {
+width: 450px;
+box-sizing: border-box;
+text-align: center;
+min-width: 450px;
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+padding: 50px 70px;
+border-radius: 24px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 210, 255, 0.2);
+}
+
+/* Título */
+h1 {
+margin-bottom: 25px;
+font-weight: 700;
+font-size: 1.5rem;
+color: #a8dadc;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+/* Horário */
+#hora {
+font-size: 3.2rem;
+    font-family: 'Orbitron', monospace;
+    font-variant-numeric: tabular-nums;
+    font-weight: 900;
+    color: #00f2fe;
+    text-shadow: 0 0 20px rgba(0, 242, 254, 0.6);
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* Data */
+#data {
+font-size: 1.2rem;
+font-weight: 400;
+color: #e0e1dd;
+letter-spacing: 2px;
+}
